@@ -17,7 +17,9 @@ public class GetUserTest {
 	public void getUsersTest() {
 		getUsers.getUsers();
 		getUsers.statusCodeValidation();
-		getUsers.responseBodyValidation("data.last_name[2]", "Funke");
-		getUsers.responseBodyValidation("data.first_name[1]", "Lindsay");
+		getUsers.responseBodyValidation("data.id", 2);
+		getUsers.responseBodyValidation("data.first_name", "Janet");
+		getUsers.responseBodyValidation("data.last_name", "Weaver");
+		getUsers.responseBodyValidation("data.email", "janet.weaver@reqres.in");
 	}
 }

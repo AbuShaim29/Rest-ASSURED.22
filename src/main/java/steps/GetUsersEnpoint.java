@@ -6,7 +6,7 @@ import utils.RestSteps;
 import utils.ReadConfig;
 
 public class GetUsersEnpoint extends RestSteps{
-	final String ENDPOINT = "/api/users";
+	final String ENDPOINT = "/api/users/2";
 	Map<String, Object>map = new HashMap<String, Object>();
 	ReadConfig readConfig = new ReadConfig();
 	

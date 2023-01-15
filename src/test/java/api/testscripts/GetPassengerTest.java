@@ -17,6 +17,8 @@ public class GetPassengerTest {
 	public void testGetPassenger() {
 		passenger.getPassenger();
 		passenger.statusCodeValidation();
-		passenger.responseBodyValidation("totalPassengers", 2068);
+		passenger.responseBodyValidation("data.id", 2);
+		passenger.responseBodyValidation("data.name","fuchsia rose");
+		passenger.responseBodyValidation("data.color", "#C74375");
 	}
 }

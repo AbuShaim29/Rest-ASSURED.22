@@ -4,7 +4,7 @@ import utils.ReadConfig;
 import utils.RestSteps;
 
 public class PassengerEndpoint extends RestSteps{
-	final String ENDPOINT = "/v1/passenger";
+	final String ENDPOINT = "/api/unknown/2";
 	
 	ReadConfig readConfig = new ReadConfig();
 	
